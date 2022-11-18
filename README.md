@@ -17,7 +17,12 @@ $ git https://github.com/kxngHunter/WebdriverIO-Assignment
 # Install dependencies
 $ npm install
 
-# In the .env file replace "test@gmail" with your email. Your email must follow the format "username@domain.extension"
+# Create an .env file in the root of the project
+$ touch .env
+
+# In the .env file type EMAIL=<EMAIL> with your email. Replace <EMAIL> with a valid email. Your email must follow the format "username@domain.extension"
+
+#For example, test@gmail.com
 
 # To run the test
 $ npm run test
