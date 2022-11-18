@@ -12,7 +12,7 @@ Before starting :checkered_flag:, you need to have [GIT](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git https://github.com/kxngHunter/WebdriverIO-Assignment
+$ git clone https://github.com/kxngHunter/WebdriverIO-Assignment.git
 
 # Install dependencies
 $ npm install
