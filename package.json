@@ -1,0 +1,30 @@
+{
+  "name": "webdriverio-assignment",
+  "version": "1.0.0",
+  "description": "WebdriverIO Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node dataHandler.js && npx wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kxngHunter/WebdriverIO-Assignment.git"
+  },
+  "author": "Romain Hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kxngHunter/WebdriverIO-Assignment/issues"
+  },
+  "homepage": "https://github.com/kxngHunter/WebdriverIO-Assignment#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "webdriverio": "^7.26.0"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.26.0",
+    "@wdio/local-runner": "^7.26.0",
+    "@wdio/mocha-framework": "^7.26.0",
+    "@wdio/selenium-standalone-service": "^7.26.0",
+    "@wdio/spec-reporter": "^7.26.0"
+  }
+}
